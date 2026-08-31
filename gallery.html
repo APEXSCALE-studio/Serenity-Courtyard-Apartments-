@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Serenity Courtyard Apartments</title>
+<meta name="description" content="Browse apartments, restaurant, pool, garden, exterior and reception photos from Serenity Courtyard Apartments, Lusaka.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="page-loader"><span class="loader-mark">Serenity Courtyard</span></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Serenity <span>Courtyard</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="apartments.html">Apartments</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="pool.html">Pool</a>
+      <a href="garden.html">Garden</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="apartments.html" class="btn btn-wood">Book Your Stay</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero" style="background-image:url('images/garden-courtyard-walkway.jpg')">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+      <h1>Gallery</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="menu-tabs reveal">
+        <button class="menu-tab gallery-filter active" data-cat="all">All</button>
+        <button class="menu-tab gallery-filter" data-cat="apartments">Apartments</button>
+        <button class="menu-tab gallery-filter" data-cat="restaurant">Restaurant</button>
+        <button class="menu-tab gallery-filter" data-cat="pool">Swimming Pool</button>
+        <button class="menu-tab gallery-filter" data-cat="garden">Garden</button>
+        <button class="menu-tab gallery-filter" data-cat="exterior">Exterior</button>
+        <button class="menu-tab gallery-filter" data-cat="reception">Reception</button>
+      </div>
+
+      <div class="gallery-grid reveal" style="grid-auto-rows:220px">
+        <div class="g-item tall" data-cat="apartments"><img src="images/apartment-dining.jpg" alt="Apartment lounge"><span class="g-label">Apartments</span></div>
+        <div class="g-item" data-cat="apartments"><img src="images/apartment-bedroom-modern.jpg" alt="Apartment bedroom"><span class="g-label">Apartments</span></div>
+        <div class="g-item" data-cat="restaurant"><img src="images/restaurant-outdoor-patio.jpg" alt="Outdoor restaurant seating"><span class="g-label">Restaurant</span></div>
+        <div class="g-item tall" data-cat="restaurant"><img src="images/restaurant-poolside-breakfast.jpg" alt="Indoor dining room"><span class="g-label">Restaurant</span></div>
+        <div class="g-item" data-cat="pool"><img src="images/pool-jacuzzi-palms.jpg" alt="Main swimming pool"><span class="g-label">Swimming Pool</span></div>
+        <div class="g-item" data-cat="pool"><img src="images/pool-evening-loungers.jpg" alt="Poolside loungers"><span class="g-label">Swimming Pool</span></div>
+        <div class="g-item tall" data-cat="garden"><img src="images/garden-courtyard-walkway.jpg" alt="Courtyard garden path"><span class="g-label">Garden</span></div>
+        <div class="g-item" data-cat="garden"><img src="images/garden-lawn-seating.jpg" alt="Garden seating area"><span class="g-label">Garden</span></div>
+        <div class="g-item" data-cat="exterior"><img src="images/exterior-facade.jpg" alt="Property exterior"><span class="g-label">Exterior</span></div>
+        <div class="g-item tall" data-cat="exterior"><img src="images/exterior-gate.jpg" alt="Building facade"><span class="g-label">Exterior</span></div>
+        <div class="g-item" data-cat="reception"><img src="images/apartment-bedroom-simple.jpg" alt="Reception area"><span class="g-label">Reception</span></div>
+        <div class="g-item" data-cat="reception"><img src="images/apartment-kitchen.jpg" alt="Lobby seating"><span class="g-label">Reception</span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" aria-label="Close">×</span>
+  <span class="lightbox-nav prev" aria-label="Previous">‹</span>
+  <img id="lightboxImg" src="" alt="">
+  <span class="lightbox-nav next" aria-label="Next">›</span>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="color:#fff">Serenity <span>Courtyard</span></a>
+        <p>Comfort-inspired apartment living in the heart of Lusaka.</p>
+        <div class="social-row"><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="WhatsApp">WA</a></div>
+      </div>
+      <div><h5>Explore</h5><ul><li><a href="apartments.html">Apartments</a></li><li><a href="restaurant.html">Restaurant</a></li><li><a href="pool.html">Swimming Pool</a></li><li><a href="garden.html">Garden</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+      <div><h5>Guest Info</h5><ul><li><a href="contact.html">Contact Us</a></li><li><a href="apartments.html#faq">FAQs</a></li><li><a href="apartments.html">Book Your Stay</a></li></ul></div>
+      <div><h5>Get in Touch</h5><ul><li>+260 775 690 659</li><li>+260 974 656 749</li><li>apexscale86@gmail.com</li><li>Lusaka, Zambia</li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="footer-year"></span> Serenity Courtyard Apartments. All rights reserved.</span>
+      <span>A demo hospitality concept by Apexscale Studio.</span>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/gallery.js"></script>
+</body>
+</html>

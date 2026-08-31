@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant — Serenity Courtyard Apartments</title>
+<meta name="description" content="Breakfast, lunch and dinner at Serenity Courtyard Apartments' restaurant, Lusaka — indoor and courtyard seating.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="page-loader"><span class="loader-mark">Serenity Courtyard</span></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Serenity <span>Courtyard</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="apartments.html">Apartments</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="pool.html">Pool</a>
+      <a href="garden.html">Garden</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="apartments.html" class="btn btn-wood">Book Your Stay</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero" style="background-image:url('images/restaurant-outdoor-patio.jpg')">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Restaurant</p>
+      <h1>Restaurant</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container intro-grid">
+      <div class="arch reveal">
+        <img src="images/restaurant-outdoor-patio.jpg" alt="Outdoor courtyard seating at the Serenity Courtyard restaurant">
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Dining</p>
+        <h2 class="section-title">Indoor calm, outdoor courtyard air</h2>
+        <p class="section-lede" style="max-width:100%">Choose the elegant indoor dining room or courtyard-facing outdoor seating beneath the garden lighting. Our kitchen serves breakfast, lunch and dinner daily, built around local ingredients and simple, well-made food.</p>
+        <button class="btn btn-wood mt-40" id="openReserveBtn">Reserve a Table</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="bg-beige">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Menu</p>
+          <h2 class="section-title">A taste of the day</h2>
+        </div>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-target="menu-breakfast">Breakfast</button>
+        <button class="menu-tab" data-target="menu-lunch">Lunch</button>
+        <button class="menu-tab" data-target="menu-dinner">Dinner</button>
+      </div>
+
+      <div class="menu-panel active" id="menu-breakfast">
+        <div class="menu-list">
+          <div class="menu-item"><div><h4>English Breakfast</h4><p>Eggs, grilled tomato, sausage, toast</p></div><span class="price">K95</span></div>
+          <div class="menu-item"><div><h4>Pancakes</h4><p>Stacked with syrup and seasonal fruit</p></div><span class="price">K65</span></div>
+          <div class="menu-item"><div><h4>Omelettes</h4><p>Made to order, choice of fillings</p></div><span class="price">K70</span></div>
+          <div class="menu-item"><div><h4>Fresh Juice</h4><p>Orange, mango or pineapple</p></div><span class="price">K35</span></div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="menu-lunch">
+        <div class="menu-list">
+          <div class="menu-item"><div><h4>Grilled Chicken</h4><p>Herb-marinated, served with sides</p></div><span class="price">K120</span></div>
+          <div class="menu-item"><div><h4>Beef Steak</h4><p>Pan-seared with seasonal vegetables</p></div><span class="price">K165</span></div>
+          <div class="menu-item"><div><h4>Pasta</h4><p>Rotating seasonal sauce</p></div><span class="price">K95</span></div>
+          <div class="menu-item"><div><h4>Fish</h4><p>Grilled catch of the day</p></div><span class="price">K140</span></div>
+          <div class="menu-item"><div><h4>Burgers</h4><p>House-made patty, hand-cut chips</p></div><span class="price">K90</span></div>
+          <div class="menu-item"><div><h4>Salads</h4><p>Garden greens, seasonal toppings</p></div><span class="price">K70</span></div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="menu-dinner">
+        <div class="menu-list">
+          <div class="menu-item"><div><h4>Chef Specials</h4><p>Changes weekly — ask your server</p></div><span class="price">Market</span></div>
+          <div class="menu-item"><div><h4>Local Cuisine</h4><p>Traditional Zambian dishes, made fresh</p></div><span class="price">K110</span></div>
+          <div class="menu-item"><div><h4>Desserts</h4><p>A rotating selection from our pastry kitchen</p></div><span class="price">K55</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS + RESERVE -->
+  <section>
+    <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+      <div class="hours-card reveal">
+        <h3 style="margin-bottom:20px">Opening Hours</h3>
+        <div class="hours-row"><span>Breakfast</span><span>6:30 AM – 10:30 AM</span></div>
+        <div class="hours-row"><span>Lunch</span><span>12:00 PM – 3:00 PM</span></div>
+        <div class="hours-row"><span>Dinner</span><span>6:00 PM – 10:00 PM</span></div>
+        <div class="hours-row" style="border:none"><span>Bar &amp; Lounge</span><span>10:00 AM – 11:00 PM</span></div>
+      </div>
+      <div class="reveal" style="display:flex;flex-direction:column;justify-content:center">
+        <p class="eyebrow">Reservations</p>
+        <h3 class="section-title">Reserve your table</h3>
+        <p class="section-lede" style="max-width:100%;margin-bottom:24px">Tell us your preferred time and party size and we'll confirm by email or phone.</p>
+        <button class="btn btn-primary" id="openReserveBtn2">Reserve a Table</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="bg-beige">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">Gallery</p><h2 class="section-title">The dining room</h2></div>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="g-item tall"><img src="images/restaurant-outdoor-patio.jpg" alt="Outdoor dining"></div>
+        <div class="g-item"><img src="images/restaurant-poolside-breakfast.jpg" alt="Plated dish"></div>
+        <div class="g-item"><img src="images/apartment-dining.jpg" alt="Indoor dining room"></div>
+        <div class="g-item tall"><img src="images/restaurant-poolside-breakfast.jpg" alt="Table setting"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="color:#fff">Serenity <span>Courtyard</span></a>
+        <p>Comfort-inspired apartment living in the heart of Lusaka.</p>
+        <div class="social-row"><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="WhatsApp">WA</a></div>
+      </div>
+      <div><h5>Explore</h5><ul><li><a href="apartments.html">Apartments</a></li><li><a href="restaurant.html">Restaurant</a></li><li><a href="pool.html">Swimming Pool</a></li><li><a href="garden.html">Garden</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+      <div><h5>Guest Info</h5><ul><li><a href="contact.html">Contact Us</a></li><li><a href="apartments.html#faq">FAQs</a></li><li><a href="apartments.html">Book Your Stay</a></li></ul></div>
+      <div><h5>Get in Touch</h5><ul><li>+260 775 690 659</li><li>+260 974 656 749</li><li>apexscale86@gmail.com</li><li>Lusaka, Zambia</li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="footer-year"></span> Serenity Courtyard Apartments. All rights reserved.</span>
+      <span>A demo hospitality concept by Apexscale Studio.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- RESERVATION MODAL -->
+<div class="modal-backdrop" id="reserveModal">
+  <div class="modal-box">
+    <button class="modal-close" id="reserveModalClose" aria-label="Close">×</button>
+    <h3>Reserve a Table</h3>
+    <p class="section-lede" style="margin:8px 0 24px">We'll confirm your table by email or phone.</p>
+    <div class="status-msg" id="reserveStatus"></div>
+    <form id="reserveForm">
+      <div class="form-row">
+        <div class="form-group"><label for="rDate">Date</label><input type="date" id="rDate" name="reservation_date" required></div>
+        <div class="form-group"><label for="rTime">Time</label><input type="time" id="rTime" name="reservation_time" required></div>
+      </div>
+      <div class="form-group"><label for="rParty">Party Size</label><input type="number" id="rParty" name="party_size" min="1" value="2" required></div>
+      <div class="form-group"><label for="rName">Full Name</label><input type="text" id="rName" name="guest_name" required></div>
+      <div class="form-row">
+        <div class="form-group"><label for="rEmail">Email</label><input type="email" id="rEmail" name="guest_email" required></div>
+        <div class="form-group"><label for="rPhone">Phone</label><input type="tel" id="rPhone" name="guest_phone"></div>
+      </div>
+      <div class="form-group"><label for="rNotes">Notes (optional)</label><textarea id="rNotes" name="notes" placeholder="Dietary needs, special occasion…"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="width:100%">Request Reservation</button>
+    </form>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+<script type="module">
+  import { supabase } from './js/supabase-config.js';
+  import { showToast } from './js/main.js';
+
+  const modal = document.getElementById('reserveModal');
+  const form = document.getElementById('reserveForm');
+  const statusMsg = document.getElementById('reserveStatus');
+
+  function openModal() {
+    document.getElementById('rDate').min = new Date().toISOString().split('T')[0];
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('openReserveBtn')?.addEventListener('click', openModal);
+  document.getElementById('openReserveBtn2')?.addEventListener('click', openModal);
+  document.getElementById('reserveModalClose')?.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    const { error } = await supabase.from('restaurant_reservations').insert({
+      guest_name: form.guest_name.value.trim(),
+      guest_email: form.guest_email.value.trim(),
+      guest_phone: form.guest_phone.value.trim() || null,
+      party_size: Number(form.party_size.value),
+      reservation_date: form.reservation_date.value,
+      reservation_time: form.reservation_time.value,
+      notes: form.notes.value.trim() || null,
+    });
+    btn.disabled = false;
+    btn.textContent = 'Request Reservation';
+    if (error) {
+      statusMsg.textContent = "Couldn't send your request — please try again or call us directly.";
+      statusMsg.className = 'status-msg error show';
+      return;
+    }
+    showToast('Reservation requested — we\'ll confirm shortly.');
+    form.reset();
+    closeModal();
+  });
+</script>
+</body>
+</html>
